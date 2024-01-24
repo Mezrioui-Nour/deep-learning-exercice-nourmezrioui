@@ -1,0 +1,15 @@
+name: recruitment_excercise_aramis
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - pandas
+  - numpy
+  - pytorch-cpu
+  - torchvision
+  - tensorflow
+  - nibabel
+  - matplotlib  
+  - pytest 
+  
+  
