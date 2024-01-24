@@ -22,10 +22,10 @@ def test_output_content():
 
 # Appliquer la normalisation aux deux fichiers (probleme de fin de ligne)
     normalize_end_of_line(r'C:\Users\ITO\Desktop\EXERCICE NOUR\basic-deep-learning-nourmezrioui-main\data\validation\output.tsv')# Remplacez par votre chemin réel
-    normalize_end_of_line(r'C:\Users\ITO\Desktop\EXERCICE NOUR\basic-deep-learning-nourmezrioui-main\data\validation\output.tsv')# Remplacez par votre chemin réel
+    normalize_end_of_line(r'C:\Users\ITO\Desktop\EXERCICE NOUR\basic-deep-learning-nourmezrioui-main\data\validation\subjects.tsv')# Remplacez par votre chemin réel
     
     filename_out = pathlib.Path(r'C:\Users\ITO\Desktop\EXERCICE NOUR\basic-deep-learning-nourmezrioui-main\data\validation\output.tsv')# Remplacez par votre chemin réel
-    filename_ref = pathlib.Path(r'C:\Users\ITO\Desktop\EXERCICE NOUR\basic-deep-learning-nourmezrioui-main\data\validation\output.tsv')# Remplacez par votre chemin réel
+    filename_ref = pathlib.Path(r'C:\Users\ITO\Desktop\EXERCICE NOUR\basic-deep-learning-nourmezrioui-main\data\validation\subjects.tsv')# Remplacez par votre chemin réel
     assert filecmp.cmp(filename_out, filename_ref), "Les fichiers ne sont pas identiques"
     #print("Les fichiers output.tsv et subjects.tsv sont identiques.")
 
